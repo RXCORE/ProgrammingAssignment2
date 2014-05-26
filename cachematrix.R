@@ -47,3 +47,13 @@ cacheSolve <- function(x, ...) {  		## Return a matrix that is the inverse of 'x
 
 
 ### End of code.  :)
+
+
+#### How to use the Make Cahche Matrix and Cashe Solve
+
+  x = rbind(c(1, -4), c(-4, 1))
+  m = makeCacheMatrix(x)
+  m$get()
+
+ 
+ cacheSolve(m)
